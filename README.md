@@ -8,14 +8,18 @@
 
 <image src="./assets/qual_recon.png"/>
 
-- 🔥 Qualitative class-to-image generation of Imagenet. The classes are dog(Golden Retriever and Husky), cliff, and bald eagle.
+- 🔥 Qualitative class-to-image generation of Imagenet. 
 
 <image src="./assets/qual_gen.png"/>
 
 - 🔥 Reconstruction evaluation on 256×256 ImageNet benchmark. 
 
-<image src="./assets/recon_tab_1.jpg"/>
+<image src="./assets/recon_tab_1.png"/>
 
 - 🔥 Zero-shot reconstruction evaluation with a downsample ratio of 16 on 512×512 and 2560x1440 datasets.
 
-<image src="./assets/recon_tab_2.jpg"/>
+<image src="./assets/recon_tab_2.png"/>
+
+- 🔥 Generation evaluation on 256×256 ImageNet benchmark. 
+
+<image src="./assets/gen_tab.png"/>
