@@ -2,6 +2,7 @@
 
 <h1>DINO-Tok: Adapting DINO for Visual Tokenizers</h1>
 
+</div>
 
 ## 🗄️Demos
 - 🔥 Qualitative reconstruction images with $16$ x downsampling on $2560$ x $1440$ UHDBench dataset. 
