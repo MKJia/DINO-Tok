@@ -69,11 +69,11 @@ bash scripts/test_vqgen.bash
 
 - 🔥 Evaluation of dino-tok-ae on 256×256 ImageNet benchmark. 
 
-<image src="./assets/tab_ae.jpg"/>
+<image src="./assets/tab_ae.png"/>
 
 - 🔥 Evaluation of dino-tok-vq on 256×256 ImageNet benchmark. 
 
-<image src="./assets/tab_vq.jpg"/>
+<image src="./assets/tab_vq.png"/>
 
 
 ## 📌 Citation
