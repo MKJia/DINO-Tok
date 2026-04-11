@@ -3,9 +3,9 @@
 
 <h1>DINO-Tok: Adapting DINO for Visual Tokenizers</h1>
 
+[![arXiv](https://img.shields.io/badge/ArXiv-2511.20565-%23840707.svg)](https://arxiv.org/abs/2511.20565v2) 
 </div>
 
-[![arXiv](https://img.shields.io/badge/ArXiv-2511.20565-%23840707.svg)](https://arxiv.org/abs/2511.20565v2) 
 
 
 [Mingkai Jia](https://scholar.google.com/citations?user=fcpTdvcAAAAJ&hl=zh-CN)<sup>1,2</sup>, [Mingxiao Li](https://lmx760581375.github.io/)<sup>2</sup>, [Zhijian Shu](https://garlicba.github.io/)<sup>2,3</sup>, [Anlin Zheng](https://yexiguafuqihao.github.io/)<sup>4</sup>, [Liaoyuan Fan](https://github.com/MKJia/DINO-Tok)<sup>2</sup>, [Jiaxin Guo](https://wrld.github.io/)<sup>5</sup>, [Tianxing Shi](https://github.com/MKJia/DINO-Tok)<sup>3</sup>, [Dongyue Lu](https://dylanorange.github.io/)<sup>2</sup>, [Zeming Li](https://www.zemingli.com/)<sup>1</sup>, [Xiaoyang Guo](https://xy-guo.github.io/)<sup>2</sup>, [Xiaojuan Qi](https://xjqi.github.io/)<sup>4</sup>, [Xiao-Xiao Long](https://www.xxlong.site/)<sup>3</sup>, [Qian Zhang](https://scholar.google.com.hk/citations?hl=zh-CN&user=pCY-bikAAAAJ)<sup>2</sup>, [Ping Tan](https://scholar.google.com/citations?user=XhyKVFMAAAAJ&hl=en)<sup>1*</sup>, [Wei Yin](https://yvanyin.net/)<sup>2*§</sup>, 
