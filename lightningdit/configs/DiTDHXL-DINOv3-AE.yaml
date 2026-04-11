@@ -1,0 +1,54 @@
+stage_1:
+  target: tokenizer.dinotok.dinov3_adapter.DINOV3AEWrapper
+  params:
+    encoder_ckpt: '/path/to/dinov3'
+    decoder_ckpt: '/path/to/ae'
+    img_size: 256
+    ds_rate: 16
+
+stage_2:
+  target: models.DDT.DiTwDDTHead
+  params:
+    input_size: 16
+    patch_size: 1
+    in_channels: 832
+    hidden_size: [1152, 2048]
+    depth: [28, 2]
+    num_heads: [16, 16]
+    mlp_ratio: 4.0
+    class_dropout_prob: 0.1
+    num_classes: 1000
+    use_qknorm: False
+    use_swiglu: True
+    use_rope: True
+    use_rmsnorm: True
+    wo_shift: False
+    use_pos_embed: True
+  ckpt: null
+
+transport:
+  params:
+    path_type: 'Linear'
+    prediction: 'velocity'
+    time_dist_type: 'uniform'
+
+sampler:
+  mode: ODE
+  params:
+    sampling_method: 'euler'
+    num_steps: 25
+    atol: 1e-6
+    rtol: 1e-3
+    reverse: False
+
+guidance:
+  method: 'cfg'
+  scale: 1.0
+  t-min: 0.0
+  t-max: 1.0
+
+misc:
+  latent_size: [832, 16, 16]
+  num_classes: 1000
+  time_dist_shift_dim: 425984
+  time_dist_shift_base: 4096
